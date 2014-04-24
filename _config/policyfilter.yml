@@ -1,0 +1,12 @@
+---
+Name: policyfilterconfig
+---
+Injector:
+# Default filter named 'ContentFilter' provides a level of caching in front of a rate filter
+# 'RateLimitFilter' and 'CachedContentFilter' can be used as standalone alternatives
+  ContentFilter:
+    class: CachedContentFilter
+    constructor:
+      - %$RateLimitFilter
+  CachedContentFilter: CachedContentFilter
+  RateLimitFilter: RateLimitFilter

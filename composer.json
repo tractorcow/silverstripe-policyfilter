@@ -1,0 +1,16 @@
+{
+    "name": "silverstripe/policyfilter",
+    "description": "Provides caching and rate limit policy control for usercode operations",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "rate", "cache", "limit"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Damian Mooyman",
+            "email": "damian@silverstripe.com"
+        }
+    ],
+    "require": {
+		"silverstripe/framework": "~3.1"
+    }
+}
