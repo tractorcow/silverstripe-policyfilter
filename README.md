@@ -1,3 +1,11 @@
+# Abandoned Module
+
+This module was made as a proof of concept. Unfortunately, all I managed to do was prove it couldn't be done effectively. You can refer to this module or use it at your own risk, but this module will not be maintained any further.
+
+
+
+
+
 # Policy Filter
 
 ## Overview
